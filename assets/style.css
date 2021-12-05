@@ -1,5 +1,5 @@
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 16px;
     line-height: 1;
   }
@@ -18,7 +18,7 @@ body {
     background-color: transparent;
     color: black;
     border-radius: 0;
-    border-bottom: 10px solid black;
+    border-bottom: 10px solid rgb(14, 42, 61);
   }
   
   .description{
@@ -37,18 +37,19 @@ body {
   }
   
   .hour {
-    background-color: #ffffff;
+    background-color: #ff5e5e;
+    font-size: 25px;
     color: #000000;
     border-top: 1px dashed #000000;
   }
   
   .past {
-    background-color: #d3d3d3;
+    background-color: #7a7a7a;
     color: white;
   }
   
   .present {
-    background-color: #ff6961;
+    background-color: #64c6ec;
     color: white;
   }
   
@@ -58,10 +59,11 @@ body {
   }
   
   .saveBtn {
-    border-left: 1px solid black;
+    border-left: 1px solid rgb(160, 160, 160);
+    font-size: 20px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-    background-color: #06AED5;
+    background-color: #0e3a44;
     color: white;
   }
   
